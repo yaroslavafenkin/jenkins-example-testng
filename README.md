@@ -1,1 +1,1 @@
-# jenkins-example-testng
+# jenkins-example-playwright-java
