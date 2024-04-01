@@ -9,7 +9,7 @@ pipeline {
   }
   post {
     always {
-      testNG()
+      junit 'target/surefire-reports/**/*.xml'
     }
   }
 }
