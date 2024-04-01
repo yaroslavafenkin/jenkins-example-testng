@@ -28,6 +28,6 @@ public class BasicTestCase {
     @Test
     public void isFalse() {
         boolean value = false;
-        Assert.assertTrue(value);
+        Assert.assertFalse(value);
     }
 }
