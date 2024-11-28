@@ -9,7 +9,7 @@ pipeline {
   }
   post {
     always {
-      testNG 'target/surefire-reports/*.xml'
+      testNG reportFilenamePattern: 'target/surefire-reports/*.xml'
     }
   }
 }
